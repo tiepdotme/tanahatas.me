@@ -2,7 +2,7 @@
   "name": "tanahatas.me",
   "version": "1.0.0",
   "description": "Freelance Designer and Web Developer.",
-  "author": "Ahmad Ainul Rizki",
+  "author": "Ahmad Ainul Rizki <ahmad@tanahatas.me>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -11,7 +11,11 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "test": "ava",
+    "precommit": "npm run lint",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy:gh-pages": "gh-pages -d dist -m 'chore: update [skip ci]' -t"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -39,6 +43,7 @@
     "@bazzite/nuxt-optimized-images": "^0.2.1",
     "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/markdownit": "^1.2.6",
+    "ava": "^0.25.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-standard": ">=12.0.0",
@@ -52,10 +57,12 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "frontmatter-markdown-loader": "^1.8.0",
+    "gh-pages": "^2.0.1",
     "image-trace-loader": "^0.1.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "jquery": "^3.4.1",
+    "jsdom": "^13.0.0",
     "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
     "sqip-loader": "^0.2.0",
