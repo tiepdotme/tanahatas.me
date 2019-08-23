@@ -20,29 +20,33 @@
 </p>
 
 <p align="center">
-  My personal portfolio & blog. Built with <a href="https://www.gatsbyjs.org">Gatsby.js</a>.
+  My personal portfolio & blog. Built with <a href="https://vuejs.org/">Vue.js</a> + <a href="https://nuxtjs.org/">Nuxt</a>.
 </p>
 
 <p align="center">
   <strong>
-    Available in German & English at <a href="https://www.lekoarts.de">www.lekoarts.de</a>.
+    Live Website at <a href="https://tanahatas.me">tanahatas.me</a>.
+  </strong>
+</p>
+
+<p align="center">
+  <strong>
+    Old Website Demo at <a href="https://v1.tanahatas.me">v1.tanahatas.me</a>.
   </strong>
 </p>
 
 ---
 
+## Notice
+
+> I make useless stuff for the funsies.
+
 ## Tech Stack
 
 - Hosted on Netlify
-- Prismic.io as Headless CMS
+- Build using Vue.js + Nuxt
 - styled-components for styling
 - ESLint & Prettier for linting
-- Cypress.io for E2E-testing
-- CircleCI
-
-# tanahatas.me
-
-> I make useless stuff for the funsies.
 
 ## Build Setup
 
