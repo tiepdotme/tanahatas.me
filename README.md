@@ -1,4 +1,10 @@
 <p align="center">
+  <a href="https://travis-ci.com/tanahatas/tanahatas.me">
+    <img
+      src="https://travis-ci.com/tanahatas/tanahatas.me.svg?branch=master"
+      alt="Travis CI"
+    />
+  </a>
   <a href="https://app.netlify.com/sites/tanahatas/deploys">
     <img
       src="https://api.netlify.com/api/v1/badges/5bca10d4-aaf6-4abe-a2be-9a6f9267fca3/deploy-status"
