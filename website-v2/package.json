@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Freelance Designer and Web Developer.",
   "author": "Ahmad Ainul Rizki",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "nuxt",

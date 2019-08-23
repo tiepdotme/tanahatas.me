@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "license": "MIT",
+  "private": true,
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
