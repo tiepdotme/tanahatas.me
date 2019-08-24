@@ -113,4 +113,4 @@ Hope you got something from reading all these. Thanks for making it to the last.
 
 If you read this far, then you must have an opinion. Tap away 👏. If you have to add something that I missed or you have your own opinion then leave a comment below.
 
-You can also go through my [website](https://saurabhcrai.com/blog) to find some more article and what i am upto these days.
+You can also go through my [website](https://tanahatas.me/blog) to find some more article and what i am upto these days.
