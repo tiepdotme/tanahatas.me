@@ -37,7 +37,8 @@
     "vue-agile": "^1.0.11",
     "vue-loader": "^15.7.1",
     "vue-parallaxy": "^1.1.1",
-    "vue-rellax": "^0.1.0"
+    "vue-rellax": "^0.1.0",
+    "vue-top-button": "^1.0.5"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",
