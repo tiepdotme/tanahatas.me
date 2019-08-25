@@ -221,6 +221,10 @@
       </p>
     </div>
 
+    <!-- <div class="contain h-work_heading">
+      <h2>Featured Work</h2>
+    </div>-->
+    
     <!-- Work Thumbnails -->
 
     <div class="showcase-container-home">

@@ -635,25 +635,25 @@
 
         <div class="a-support-help">
           <p>
-            People who supported and helped me along the way to
-            fine-tune and move forward in making of this website
+            People who supported, helped me and from whom I learned all these along the way to
+            fine-tune and get through all those errors in making of this website
             <br />
             <span class="a-s-a-container">
-              <div class="supporter-avatar">
+              <span class="supporter-avatar">
                 <img
                   src="~assets/img/about/supporter-avatar-1.jpg"
                   alt="people who helped me"
                   title="Ahmad Ainul Rizki"
                 />
-              </div>
+              </span>
 
-              <div class="supporter-avatar">
+              <span class="supporter-avatar">
                 <img
                   src="~assets/img/about/supporter-avatar-2.jpg"
                   alt="people who helped me"
                   title="Shawn Dee"
                 />
-              </div>+many more
+              </span>+many more
             </span>
           </p>
         </div>
@@ -674,9 +674,9 @@
             <span>
               is hosted on:
               <img
-                src="~assets/img/about/zeit.svg"
-                alt="zeit icon svg"
-                title="ZEIT"
+                src="~assets/img/about/netlify.svg"
+                alt="netlify icon svg"
+                title="netlify"
               />
             </span>
             <br />
