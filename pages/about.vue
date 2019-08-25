@@ -572,7 +572,7 @@
                 title="DEV Community (new tab)"
               >
                 <img src="~assets/svg/dev-to.svg" alt="medium icon svg" />
-                <span class="underline-magical">DEV.to</span>
+                <span class="underline-magical">dev.to</span>
               </a>
             </span>
 
@@ -584,7 +584,7 @@
                 title="Linkdin (new tab)"
               >
                 <img src="~assets/svg/dribbble.svg" alt="dribbble icon" />
-                <span class="underline-magical">Dribbble</span>
+                <span class="underline-magical">dribbble</span>
               </a>
             </span>
             <br />
@@ -596,7 +596,7 @@
                 title="Github (new tab)"
               >
                 <img src="~assets/svg/github.svg" alt="github icon" />
-                <span class="underline-magical">Github</span>
+                <span class="underline-magical">github</span>
               </a>
             </span>
 
@@ -608,7 +608,7 @@
                 title="Behance (new tab)"
               >
                 <img src="~assets/svg/behance.svg" alt="behance icon" />
-                <span class="underline-magical">Behance</span>
+                <span class="underline-magical">behance</span>
               </a>
             </span>
             <br />
