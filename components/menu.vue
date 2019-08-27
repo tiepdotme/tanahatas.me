@@ -8,24 +8,35 @@
           height="71.707"
           viewBox="0 0 74.707 71.707"
         >
-        <defs>
-          <style>
-            .cls-1 {
-              fill: none;
-              stroke: #f6ecdd;
-            }
-
-            .cls-2 {
-              fill: #fc3a52;
-            }
-          </style>
-        </defs>
-        <g>
-          <line class="cls-1" x1="53.35" y1="0.35" x2="0.35" y2="53.35"/>
-          <path class="cls-1" d="M64.35,9.35l-9.11,9.11L11.35,62.35" transform="translate(0 0)"/>
-          <path class="cls-1" d="M74.35,18.35l-9.11,9.11L21.35,71.35" transform="translate(0 0)"/>
-          <path class="cls-2" d="M29.46,42.68l-2.51,5H21.47L36.27,18,46.15,37.8H40.6l-4.33-8.7L31.9,37.8Zm21.61,5H45.56l-2.44-4.92h5.47Z" transform="translate(0 0)"/>
-        </g>
+          <g transform="translate(-23.146 -36.146)">
+            <line
+              x1="53"
+              y2="53"
+              transform="translate(23.5 36.5)"
+              fill="none"
+              stroke="#f6ecdd"
+              stroke-width="1"
+            />
+            <path
+              d="M53,0,43.891,9.109,0,53"
+              transform="translate(34.5 45.5)"
+              fill="none"
+              stroke="#f6ecdd"
+              stroke-width="1"
+            />
+            <path
+              d="M53,0,43.891,9.109,0,53"
+              transform="translate(44.5 54.5)"
+              fill="none"
+              stroke="#f6ecdd"
+              stroke-width="1"
+            />
+            <path
+              d="M19.53-18.9c-.56-2.8-2.87-6.44-8.89-6.44C5.95-25.34,2-21.98,2-17.57c0,3.745,2.555,6.3,6.51,7.105l3.465.7c1.925.385,3.01,1.505,3.01,2.94,0,1.75-1.435,3.045-4.025,3.045-3.5,0-5.215-2.2-5.425-4.655L1.05-7.245C1.435-3.71,4.34.525,10.92.525c5.775,0,8.96-3.85,8.96-7.665,0-3.5-2.415-6.44-6.93-7.315L9.485-15.12c-1.82-.35-2.7-1.435-2.7-2.8,0-1.645,1.54-3.15,3.885-3.15a4.237,4.237,0,0,1,4.515,3.5ZM23.17-2.94A3.2,3.2,0,0,0,26.355.245a3.2,3.2,0,0,0,3.22-3.185,3.2,3.2,0,0,0-3.22-3.185A3.2,3.2,0,0,0,23.17-2.94Z"
+              transform="translate(44 82)"
+              fill="#fc3a52"
+            />
+          </g>
         </svg>
       </div>
     </nuxt-link>
@@ -46,10 +57,10 @@
     <div class="nav">
       <div class="nav__content">
         <ul class="nav__list">
-          <li class="nav__list-item">Home</li>
-          <li class="nav__list-item">About</li>
-          <li class="nav__list-item">Projects</li>
-          <li class="nav__list-item">Contact</li>
+          <nuxt-link to="/" class="nav__list-item">Home</nuxt-link>
+          <nuxt-link to="/projects" class="nav__list-item">Projects</nuxt-link>
+          <nuxt-link to="/blog" class="nav__list-item">Blog</nuxt-link>
+          <nuxt-link to="/about" class="nav__list-item">About</nuxt-link>
         </ul>
       </div>
     </div>
@@ -81,7 +92,6 @@ export default {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
 }
-
 .menu-applause {
   width: 100%;
   position: absolute;
@@ -94,7 +104,6 @@ export default {
 /* .nav-container:hover {
   width: 90%;
 } */
-
 @media screen and (max-width: 999px) {
   .nav-container {
     width: 100%;
@@ -104,7 +113,6 @@ export default {
     display: none;
   }
 }
-
 .logo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
@@ -114,43 +122,35 @@ export default {
   padding-top: 30px;
   transform: translate(-50%);
 }
-
 @media screen and (max-width: 999px) {
   .logo {
     left: 8%;
     padding-top: 0px;
   }
-
   svg {
     width: 60px;
   }
 }
-
 @keyframes turn {
   100% {
     transform: rotateX(0deg);
   }
 }
-
 @keyframes godown {
   100% {
     top: 180px;
   }
 }
-
 @keyframes goright {
   100% {
     left: 70px;
   }
 }
-
 /* menu button */
-
 .menu-button {
   position: relative;
   z-index: 1001;
 }
-
 .test1 {
   width: 100%;
   height: 100vw;
@@ -160,7 +160,6 @@ export default {
   left: 0%;
   background-color: var(--primary-color);
 }
-
 .slide-enter-active {
   transition: all 0.3s ease;
 }
@@ -172,9 +171,7 @@ export default {
   transform: translateX(10px);
   opacity: 0;
 }
-
 /* menu */
-
 .site-content {
   max-width: 1100px;
   height: 100vh;
@@ -189,7 +186,6 @@ export default {
   color: #ffffff;
   font-size: calc(2vw + 10px);
 }
-
 .menu-icon {
   height: 30px;
   width: 30px;
@@ -219,7 +215,6 @@ export default {
   width: 15px;
   float: right;
 }
-
 .nav {
   position: fixed;
   z-index: 1;
@@ -231,7 +226,7 @@ export default {
   width: 100vw;
   top: 0%;
   height: 100vh;
-  background: rgba(234, 234, 234, 0.2);
+  background: var(--primary-color);
   z-index: -1;
   transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -241,7 +236,7 @@ export default {
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background: white;
+  background: #d6d6d6;
   transition-delay: 0s;
 }
 .nav:before {
@@ -286,7 +281,6 @@ export default {
 .nav__list-item:hover:before {
   width: 100%;
 }
-
 body.nav-active .menu-icon__line {
   background-color: #000;
   -webkit-transform: translateX(0px) rotate(-45deg);
@@ -338,7 +332,6 @@ body.nav-active .nav__list-item:nth-child(3) {
 body.nav-active .nav__list-item:nth-child(4) {
   transition-delay: 0.9s;
 }
-
 @media screen and (max-width: 999px) {
   .menu-icon {
     height: 30px;

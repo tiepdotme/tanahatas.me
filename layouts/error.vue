@@ -27,10 +27,11 @@
 
 <script>
 import Discovermore from '~/components/discovermore'
+import Menu from '~/components/menu'
 export default {
   props: ['error'],
   layout: 'projects',
-  components: { Discovermore } // you can set a custom layout for the error page
+  components: { Discovermore, Menu } // you can set a custom layout for the error page
 }
 </script>
 
@@ -41,7 +42,6 @@ export default {
   height: 100vh;
   overflow: hidden;
 }
-
 .contain {
   position: relative;
 }
@@ -50,7 +50,6 @@ export default {
   padding-top: 100px;
   left: 1%;
 }
-
 .error-container .o {
   position: absolute;
   right: 2%;
@@ -58,18 +57,15 @@ export default {
   height: 80vh;
   z-index: -1;
 }
-
 .content {
   padding-top: 150px;
 }
 .page-enter-active {
   transition: all 0.25s ease-out;
 }
-
 .page-leave-active {
   transition: all 0.5s ease-in;
 }
-
 .page-enter,
 .page-leave-active {
   opacity: 0;
