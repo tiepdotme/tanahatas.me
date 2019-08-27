@@ -43,6 +43,8 @@
 
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tanahatas/tanahatas.me.svg)](https://greenkeeper.io/)
+
 ## Notice
 
 > I make useless stuff for the funsies.
