@@ -36,13 +36,15 @@
       </transition>
     </div>-->
 
-    <div class="menu-icon">
-      <span class="menu-icon__line menu-icon__line-left"></span>
-      <span class="menu-icon__line"></span>
-      <span class="menu-icon__line menu-icon__line-right"></span>
-    </div>
+    <button>
+      <div class="menu-icon" @click="show = !show">
+        <span class="menu-icon__line menu-icon__line-left"></span>
+        <span class="menu-icon__line"></span>
+        <span class="menu-icon__line menu-icon__line-right"></span>
+      </div>
+    </button>
 
-    <div class="nav">
+    <div class="nav" v-if="show">
       <div class="nav__content">
         <ul class="nav__list">
           <li class="nav__list-item">
@@ -71,7 +73,7 @@
 export default {
   data() {
     return {
-      show: true
+      show: false
     }
   }
 }
@@ -213,7 +215,6 @@ export default {
 }
 .nav {
   position: fixed;
-  z-index: 1;
   width: 100%;
   height: 100%;
   display: block;
@@ -231,8 +232,8 @@ export default {
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s,
     -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  -webkit-transform: translateX(0%) translateY(-100%);
-  transform: translateX(0%) translateY(-100%);
+  -webkit-transform: translateX(-100%) translateY(0%);
+  transform: translateX(-100%) translateY(0%);
 }
 .nav:after {
   background: #d6d6d6;
@@ -245,7 +246,6 @@ export default {
   position: relative;
   top: 75%;
   left: 71%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
@@ -298,9 +298,7 @@ body.nav-active .menu-icon__line-right {
   -webkit-transform: translateX(-2px) rotate(45deg);
   transform: translateX(-2px) rotate(45deg);
 }
-body.nav-active .nav {
-  visibility: visible;
-}
+
 body.nav-active .nav:before,
 body.nav-active .nav:after {
   -webkit-transform: translateX(0%) translateY(0%);
