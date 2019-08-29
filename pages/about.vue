@@ -487,12 +487,12 @@
         <div class="me-crazy">
           <img
             class="me-crazy-1"
-            src="~assets/img/about/me-face1.png?webp"
+            src="~assets/img/about/bee-love-you.png?webp"
             alt="  Crazzy Myself, blank and white"
           />
           <img
             class="me-crazy-2"
-            src="~assets/img/about/me-face-2.png?webp"
+            src="~assets/img/about/bee-love-you-hover.png?webp"
             alt="  Crazzy Myself, black and white"
           />
         </div>
