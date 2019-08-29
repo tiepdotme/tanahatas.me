@@ -52,10 +52,16 @@
               <nuxt-link to="/projects">Projects</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="blog">Blog</nuxt-link>
+              <nuxt-link to="/blog">Blog</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="about">About</nuxt-link>
+              <nuxt-link to="/about">About</nuxt-link>
+            </span>
+            <span class="nav__list-item">
+              <nuxt-link to="/opensource">Open Source</nuxt-link>
+            </span>
+            <span class="nav__list-item">
+              <nuxt-link to="/donate">Donate</nuxt-link>
             </span>
           </span>
         </div>
@@ -215,7 +221,7 @@ export default {
 }
 .nav__list-item {
   margin: 10px 24px;
-  display: inline;
+  display: inline-block;
   position: relative;
 }
 /* .nav__content {
