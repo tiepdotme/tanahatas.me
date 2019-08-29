@@ -96,10 +96,7 @@ export default {
         hid: 'description',
         name: 'description',
         content: pkg.description
-      },
-      { 'http-equiv': 'pragma', content: 'no-cache' },
-      { 'http-equiv': 'cache-control', content: 'no-cache' },
-      { 'http-equiv': 'expires', content: '0' }
+      }
     ],
     link: [{
         iconSrc: 'static/icon.png',
