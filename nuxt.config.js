@@ -25,11 +25,6 @@ export default {
   /*
    ** Headers of the page
    */
-  render: {
-    static: {
-      maxAge: 1000 * 60 * 60 * 24 * 7
-    }
-  }
   head: {
 
     script: [{
