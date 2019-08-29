@@ -68,25 +68,25 @@ $(window).scroll(function () {
 //   let menu;
 //   let items;
 
-// const init = () => {
-//   body = document.querySelector('body');
-//   menu = document.querySelector('.menu-icon');
-//   items = document.querySelectorAll('.nav__list-item');
+//   const init = () => {
+//     body = document.querySelector('body');
+//     menu = document.querySelector('.menu-icon');
+//     items = document.querySelectorAll('.nav__list-item');
 
-//   applyListeners();
-// };
+//     applyListeners();
+//   };
 
-// const applyListeners = () => {
-//   menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
-// };
+//   const applyListeners = () => {
+//     menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+//   };
 
-// const toggleClass = (element, stringClass) => {
-//   if (element.classList.contains(stringClass))
-//     element.classList.remove(stringClass);
-//   else
+//   const toggleClass = (element, stringClass) => {
+//     if (element.classList.contains(stringClass))
+//       element.classList.remove(stringClass);
+//     else
 
-//     element.classList.add(stringClass);
-// };
+//       element.classList.add(stringClass);
+//   };
 
 //   init();
 // })();
