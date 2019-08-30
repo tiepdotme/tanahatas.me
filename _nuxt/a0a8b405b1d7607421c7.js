@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{908:function(n,o,t){"use strict";t.r(o);var c={asyncData:function(n){(0,n.redirect)("https://ko-fi.com/C0C0125D1")}},e=t(3),component=Object(e.a)(c,void 0,void 0,!1,null,null,null);o.default=component.exports}}]);

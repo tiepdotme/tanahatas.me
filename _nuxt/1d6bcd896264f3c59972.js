@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{907:function(t,n,o){"use strict";o.r(n);var c={asyncData:function(t){(0,t.redirect)("https://github.com/tanahatas")}},e=o(3),component=Object(e.a)(c,void 0,void 0,!1,null,null,null);n.default=component.exports}}]);
