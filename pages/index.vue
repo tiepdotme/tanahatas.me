@@ -284,11 +284,11 @@
           </nuxt-link>
         </div>
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/bharatrohan">
             <thumbnail
-              thumbnailName="Awesome Inc."
-              thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              thumbnailName="BharatRohan"
+              thumbnailDescription="Admin, App, Web"
+              thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
