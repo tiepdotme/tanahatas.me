@@ -173,32 +173,6 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
-            <thumbnail
-              thumbnailName="Awesome Inc."
-              thumbnailDescription="Branding"
-              thumbnail="/showcase5.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/elevito">
-            <thumbnail
-              thumbnailName="Elevito"
-              thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
       </div>
     </div>
   </div>
