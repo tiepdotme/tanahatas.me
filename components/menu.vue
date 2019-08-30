@@ -43,8 +43,8 @@
         @click="changed = !changed"
         :class="{ active: changed }"
         xmlns="http://www.w3.org/2000/svg"
-        width="50"
-        height="50"
+        width="32"
+        height="32"
       >
         <transition-group name="layout" tag="g">
           <rect class="items line1" ref="rect" key="rect" width="15" height="2" />
